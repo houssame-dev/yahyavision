@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./main/Home";
+import TopBar from "./main/TopBar";
+import Work from "./main/Work";
+import Contact from "./main/Contact";
+import Inferenced from "./main/projects/Inferenced";
+import Sando from "./main/projects/Sando";
+import Zero from "./main/projects/Zero";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <TopBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="inferenced" element={<Inferenced />} />
+          <Route path="sando" element={<Sando />} />
+          <Route path="zero" element={<Zero />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

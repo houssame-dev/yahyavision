@@ -1,0 +1,53 @@
+/* Looper styles */
+@keyframes slideAnim {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.looper {
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  line-height: 220px;
+  padding-bottom: 8rem;
+}
+
+.looper__innerList {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+.looper__innerList[data-animate="true"] .looper__listInstance {
+  animation: slideAnim linear infinite;
+}
+
+.looper__listInstance {
+  display: flex;
+  width: max-content;
+  animation: none;
+}
+
+/* Example content styles */
+
+#root {
+  font-family: SegmentAKeyTrial-Black;
+}
+
+.contentBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 10px;
+  text-align: center;
+}
+.contentBlock--one {
+  width: 100%;
+  font-size: 350px;
+  padding-inline: 30px;
+  height: fit-content;
+}

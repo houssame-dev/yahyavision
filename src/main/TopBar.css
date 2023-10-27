@@ -1,0 +1,68 @@
+#navbar {
+  background-color: #000000;
+  padding: 1.5rem 2rem;
+}
+
+#navbar .logo {
+  width: 150px;
+}
+
+#navbar .toggler {
+  color: black;
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar .topbar-items {
+  color: white;
+  background-color: orangered;
+  margin: 1rem 0;
+  padding-block: 0 3rem;
+  padding-inline: 2rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#navbar .topbar-items .item {
+  color: white;
+  font-family: SegmentAKeyTrial-Black;
+  font-size: 5rem;
+  width: 100%;
+  margin-block: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+
+#navbar .topbar-items .item .number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+#navbar .topbar-items .item .arrow {
+  display: inline-block;
+  transform: translateX(-20px); /* Start the icon off-screen to the left */
+  transition: transform 0.4s; 
+}
+
+#navbar .topbar-items .item:hover .arrow {
+  transform: translateX(0);
+}
+
+@media (max-width: 330px) {
+  #navbar {
+    padding: 1.5rem 0;
+  }
+}

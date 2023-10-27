@@ -1,0 +1,71 @@
+#sando {
+  background-color: #000000;
+}
+
+#sando .sando-row {
+  padding: 3rem 2rem;
+}
+
+#sando h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#sando p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#sando .info {
+  margin-top: 3rem;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 3rem;
+  font-size: 15px;
+}
+
+#sando .info .i-1 {
+  font-weight: bold;
+  list-style: none;
+}
+
+#sando .info .i-2 {
+  font-weight: lighter;
+  list-style: none;
+}
+
+#sando .btn {
+  background-color: #262626;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-block: 2rem 3rem;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+}
+
+#sando .btn:hover {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+#sando .img-div {
+  display: flex;
+  justify-content: center;
+  padding-block: 1rem;
+}
+
+#sando .card {
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+#sando img {
+  border-radius: 10px;
+}

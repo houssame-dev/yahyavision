@@ -1,0 +1,71 @@
+#inferenced {
+  background-color: #000000;
+}
+
+#inferenced .inferenced-row {
+  padding: 3rem 2rem;
+}
+
+#inferenced h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#inferenced p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#inferenced .info {
+  margin-top: 3rem;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 3rem;
+  font-size: 15px;
+}
+
+#inferenced .info .i-1 {
+  font-weight: bold;
+  list-style: none;
+}
+
+#inferenced .info .i-2 {
+  font-weight: lighter;
+  list-style: none;
+}
+
+#inferenced .btn {
+  background-color: #262626;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin-block: 2rem 3rem;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+}
+
+#inferenced .btn:hover {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+#inferenced .img-div {
+  display: flex;
+  justify-content: center;
+  padding-block: 1rem;
+}
+
+#inferenced .card {
+  border-radius: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+#inferenced img {
+  border-radius: 10px;
+}

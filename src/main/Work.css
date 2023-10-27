@@ -1,0 +1,72 @@
+#work {
+  background-color: #000000;
+}
+
+#work .work-row {
+  padding: 3rem 2rem;
+}
+
+#work .work-image {
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+#work .work-image:hover {
+  transform: scale(1.05);
+}
+
+#work .container {
+  position: relative;
+  padding: 0;
+}
+
+#work .work-image-clicked {
+  display: block;
+  border: none;
+  border-radius: 5px;
+}
+
+#work .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#work .container:hover .overlay {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+#work .inside {
+  justify-content: center;
+  display: flex;
+  align-items: baseline;
+}
+
+#work .inside .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0rem 1rem;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
