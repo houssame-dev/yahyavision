@@ -36,7 +36,7 @@ function Home() {
                   </span>
                   <span>
                     <Link to="/work" className="foot">
-                      Dig into my work <BsArrowUpRight />
+                      MY WORK <BsArrowUpRight />
                     </Link>
                   </span>
                 </Card>

@@ -4,8 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import yahyavision from "./assets/yahyavision.png";
 import "./TopBar.css";
-import { SlMenu } from "react-icons/sl";
-import { TfiClose } from "react-icons/tfi";
+import { RiMenu5Fill } from "react-icons/ri";
+import { IoMdClose } from "react-icons/io";
 import { IoArrowRedoSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,7 @@ function TopBar() {
               className="toggler"
               onClick={() => setExpanded(!expanded)}
             >
-              <TfiClose />
+              <IoMdClose />
             </Navbar.Toggle>
           ) : (
             <Navbar.Toggle
@@ -36,7 +36,7 @@ function TopBar() {
               className="toggler"
               onClick={() => setExpanded(!expanded)}
             >
-              <SlMenu />
+              <RiMenu5Fill />
             </Navbar.Toggle>
           )}
           <Navbar.Collapse id="responsive-navbar-nav">
