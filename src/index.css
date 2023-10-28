@@ -9,7 +9,7 @@ html {
 @font-face {
   font-family: SegmentAKeyTrial-Black;
   src: local(SegmentAKeyTrial-Black)
-    url("./main/fonts/SegmentAKeyTrial-Black.woff2") format("woff2"),
-    url("./main/fonts/SegmentAKeyTrial-Black.woff") format("woff") ;
-  font-display: swap;
+      url("./main/fonts/SegmentAKeyTrial-Black.woff2") format("woff2"),
+    url("./main/fonts/SegmentAKeyTrial-Black.woff") format("woff");
+  font-display: block;
 }
