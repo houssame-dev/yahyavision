@@ -8,15 +8,7 @@ html {
 
 @font-face {
   font-family: SegmentAKeyTrial-Black;
-  src: url("./main/fonts/SegmentAKeyTrial-Black.otf");
-}
-
-@font-face {
-  font-family: SegmentAKeyTrial-Bold;
-  src: url("./main/fonts/SegmentAKeyTrial-Bold.otf");
-}
-
-@font-face {
-  font-family: SegmentAKeyTrial-Regular;
-  src: url("./main/fonts/SegmentAKeyTrial-Regular.otf");
+  src: local(SegmentAKeyTrial-Black)
+    url("./main/fonts/SegmentAKeyTrial-Black.woff2") format("woff2");
+  font-display: swap;
 }
