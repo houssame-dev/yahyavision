@@ -3,7 +3,9 @@
 }
 
 #inferenced .inferenced-row {
-  padding: 3rem 2rem;
+  margin-inline: 2rem;
+  padding-block: 4rem;
+  border-bottom: 1px solid white;
 }
 
 #inferenced h1 {
@@ -68,4 +70,12 @@
 
 #inferenced img {
   border-radius: 10px;
+}
+
+/* Mobile screens */
+
+@media (max-width: 573px) {
+  #inferenced .inferenced-row {
+    margin-inline: 1rem;
+  }
 }

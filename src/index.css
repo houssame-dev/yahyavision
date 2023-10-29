@@ -2,10 +2,6 @@ html {
   background-color: #000000;
 }
 
-.hr {
-  color: white;
-}
-
 @font-face {
   font-family: SegmentAKeyTrial-Black;
   src: local(SegmentAKeyTrial-Black)

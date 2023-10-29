@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Loading.css";
 
 const Loading = () => {
-  const initialText = " Hello there ! Its Yahyavision ";
+  const initialText = "  Loading...  ";
   const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const Loading = () => {
       if (currentIndex < initialText.length) {
         setDisplayedText(initialText.slice(0, currentIndex + 1));
         currentIndex++;
-        setTimeout(typeText, 100);
+        setTimeout(typeText, 150);
       }
     };
 

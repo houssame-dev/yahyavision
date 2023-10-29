@@ -1,6 +1,7 @@
 #navbar {
   background-color: #000000;
   padding: 1.5rem 2rem;
+  border: none;
 }
 
 #navbar .logo {
@@ -8,16 +9,23 @@
 }
 
 #navbar .toggler {
-  color: black;
+  color: white;
   font-size: 25px;
-  background-color: white;
-  border: none;
+  background-color: black;
+  border: 2px solid white;
   border-radius: 50px;
   padding: 10px 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.4s;
+}
+
+#navbar .toggler:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
 }
 
 #navbar .topbar-items {
@@ -51,18 +59,10 @@
   font-size: 2rem;
 }
 
-#navbar .topbar-items .item .arrow {
-  display: inline-block;
-  transform: translateX(-20px); /* Start the icon off-screen to the left */
-  transition: transform 0.4s; 
-}
+/* Mobile screens */
 
-#navbar .topbar-items .item:hover .arrow {
-  transform: translateX(0);
-}
-
-@media (max-width: 330px) {
+@media (max-width: 573px) {
   #navbar {
-    padding: 1.5rem 0;
+    padding-inline: 1rem;
   }
 }

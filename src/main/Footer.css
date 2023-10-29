@@ -8,6 +8,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  border: none;
 }
 
 #footer .card-7 .social-media {
@@ -54,4 +55,21 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  border: none;
+}
+
+/* Mobile screens */
+
+@media (max-width: 573px){
+  #footer .card-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  #footer .card-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

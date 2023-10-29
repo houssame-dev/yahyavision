@@ -4,7 +4,8 @@
 
 #home .card-group1 {
   gap: 2rem;
-  padding: 2rem;
+  margin-inline: 2rem;
+  padding-block: 4rem;
 }
 
 #home .card-1 {
@@ -51,13 +52,16 @@
 
 #home .card-group2 {
   gap: 2rem;
-  padding: 2rem;
+  margin-inline: 2rem;
+  padding-block: 4rem;
+  border-top: 1px solid white;
 }
 
 #home .card-3 {
   font-family: SegmentAKeyTrial-Black;
   background-color: transparent;
   border: none;
+  border-top: none;
   color: white;
   display: flex;
   justify-content: flex-start;
@@ -77,7 +81,9 @@
 
 #home .card-group3 {
   gap: 2rem;
-  padding: 2rem;
+  margin-inline: 2rem;
+  padding-block: 4rem;
+  border-block: 1px solid white;
 }
 
 #home .card-5 {
@@ -95,6 +101,7 @@
 
 #home .card-6 {
   background-color: transparent;
+  border: none;
 }
 
 #home .card-6 .services {
@@ -105,6 +112,7 @@
 
 #home .card-6 .services .service-card {
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   background-color: white;
   border-radius: 15px;
   width: 100%;
@@ -112,4 +120,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+}
+
+/* Mobile screens */
+
+@media (max-width: 573px) {
+  #home .card-group1 {
+    margin-inline: 1rem;
+  }
+  #home .card-1 {
+    margin-bottom: 4rem;
+  }
+  #home .card-group2 {
+    margin-inline: 1rem;
+  }
+  #home .card-group3 {
+    margin-inline: 1rem;
+  }
+  #home .card-6 .services {
+    display: block;
+    padding-bottom: 0;
+  }
+  #home .card-6 .services .service-card {
+    margin-top: 2rem;
+  }
 }

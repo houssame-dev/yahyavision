@@ -3,7 +3,9 @@
 }
 
 #zero .zero-row {
-  padding: 3rem 2rem;
+  margin-inline: 2rem;
+  padding-block: 4rem;
+  border-bottom: 1px solid white;
 }
 
 #zero h1 {
@@ -68,4 +70,12 @@
 
 #zero img {
   border-radius: 10px;
+}
+
+/* Mobile screens */
+
+@media (max-width: 573px) {
+  #zero .zero-row {
+    margin-inline: 1rem;
+  }
 }
