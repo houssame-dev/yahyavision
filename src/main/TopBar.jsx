@@ -18,7 +18,7 @@ function TopBar() {
     <>
       <Navbar collapseOnSelect expand="xxxl" id="navbar" expanded={expanded}>
           <Container fluid>
-            <Link to="/">
+            <Link to="/" onClick={handleNavItemClick}>
               <img src={yahyavision} alt="logo" className="logo" />
             </Link>
             {expanded ? (

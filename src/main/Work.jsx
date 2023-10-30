@@ -5,7 +5,6 @@ import { Link, useLocation } from "react-router-dom";
 import { RiEyeFill } from "react-icons/ri";
 import { WorkData } from "./WorkData";
 import { Footer } from "./Footer";
-import { motion } from "framer-motion";
 
 function Work() {
   const location = useLocation();
@@ -16,12 +15,7 @@ function Work() {
   return (
     <>
       <div id="work">
-        <motion.div
-          initial={{ opacity: 0, y: 200 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 2 }}
-        >
+  
           <Container fluid>
             <Row className="work-row">
               {WorkData.map((imageUrl, index) => (
@@ -126,7 +120,6 @@ function Work() {
               <Footer />
             </Row>
           </Container>
-        </motion.div>
       </div>
     </>
   );

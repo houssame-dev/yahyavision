@@ -24,7 +24,6 @@
 
 .looper__innerList[data-animate="true"] .looper__listInstance {
   animation: slideAnim linear infinite;
-  animation-delay: 2s;
 }
 
 .looper__listInstance {
