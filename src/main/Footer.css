@@ -49,7 +49,7 @@
 }
 
 #footer .card-8 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   background-color: transparent;
   display: flex;
@@ -60,7 +60,7 @@
 
 /* Mobile screens */
 
-@media (max-width: 573px){
+@media (max-width: 573px) {
   #footer .card-7 {
     display: flex;
     justify-content: center;

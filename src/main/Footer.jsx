@@ -19,7 +19,7 @@ export function Footer() {
             <Card className="card-7">
               <div className="social-media">
                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <FaInstagram />
+                  <FaInstagram size={15}/>
                 </a>
                 <a
                   href="http://"
@@ -27,13 +27,13 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="twitter"
                 >
-                  <FaXTwitter />
+                  <FaXTwitter size={15}/>
                 </a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedinIn />
+                  <FaLinkedinIn size={15}/>
                 </a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <FaBehance />
+                  <FaBehance size={15}/>
                 </a>
               </div>
             </Card>

@@ -33,7 +33,6 @@ function Home() {
                   <span>
                     Hello! I'm Yahyavision. I collaborate with clients globally
                     to craft distinctive logos and unique brand identities.
-                    Let's shape your vision together!
                   </span>
                   <span>
                     <Link to="/work" className="foot">
@@ -53,22 +52,14 @@ function Home() {
                 <Card className="card-3">ABOUT ME</Card>
 
                 <Card className="card-4">
-                  Hello from the heart of vibrant Morocco! I'm a graphic
-                  designer who goes by the name YahyaVision, a moniker that
-                  perfectly encapsulates my unique ability to craft compelling
-                  brand identities and memorable logos. With a keen eye for
-                  detail and an unwavering commitment to my vision, I have the
-                  power to transform brands, ensuring they leave a lasting
-                  impact on their audience. My passion for design runs deep,
-                  fueling my creativity as I work on a wide array of
-                  projects—from creating distinctive logos and developing
-                  comprehensive branding strategies, to offering visionary
-                  creative direction and mastering the fine art of graphic
-                  design. I invite you to explore my curated gallery, where each
-                  piece whispers its own story and showcases the depth of my
-                  artistic prowess. Welcome to YahyaVision, where your brand's
-                  potential is realized and exceptional design meets lasting
-                  impact.
+                  Hello from the vibrant heart of Morocco! I’m YahyaVision, and
+                  I’m here to bring your brand to life with stunning logos and
+                  unforgettable brand identities. My passion for design is your
+                  ticket to making a lasting impression on your audience. Let’s
+                  embark on this creative journey together, and watch as your
+                  brand’s unique story unfolds through exceptional design.
+                  Welcome to YahyaVision, where your vision meets impactful
+                  creativity.
                 </Card>
               </CardGroup>
             </Col>
@@ -80,7 +71,7 @@ function Home() {
                 <Card className="card-6">
                   <div className="services">
                     <Card className="service-card">
-                      <span>Logo</span>
+                      <span className="service-title">Logo</span>
                       <span>
                         Turning your vision into stunning logos that capture the
                         heart of your brand. We create memorable designs that
@@ -88,7 +79,7 @@ function Home() {
                       </span>
                     </Card>
                     <Card className="service-card">
-                      <span>Brand Identity</span>
+                      <span className="service-title">Brand Identity</span>
                       <span>
                         Bringing your brand to life with cohesive and charming
                         identities. Every element, from colors to visuals, is
@@ -99,7 +90,7 @@ function Home() {
                   </div>
                   <div className="services">
                     <Card className="service-card">
-                      <span>Poster</span>
+                      <span className="service-title">Poster</span>
                       <span>
                         Creating eye-catching posters to grab attention and
                         share your message loud and clear. Whether for
@@ -108,7 +99,7 @@ function Home() {
                       </span>
                     </Card>
                     <Card className="service-card">
-                      <span>Social Media</span>
+                      <span className="service-title">Social Media</span>
                       <span>
                         Designing vibrant social media content to boost your
                         brand’s online charisma. Our posts are not just pretty;

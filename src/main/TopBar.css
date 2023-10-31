@@ -1,16 +1,16 @@
 #navbar {
   background-color: #000000;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   border: none;
 }
 
 #navbar .logo {
-  width: 150px;
+  width: 100px;
 }
 
 #navbar .toggler {
   color: white;
-  font-size: 25px;
+  font-size: 18px;
   background-color: black;
   border: 2px solid white;
   border-radius: 50px;
