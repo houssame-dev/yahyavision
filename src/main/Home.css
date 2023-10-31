@@ -126,7 +126,7 @@
   background-color: white;
   border-radius: 15px;
   padding: 1rem;
-  width: 100%;
+  max-width: 100%;
   min-height: 400px;
   display: flex;
   align-items: flex-start;
