@@ -15,14 +15,23 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 5000);
   }, []);
   return (
     <div className="App">
       {loading ? (
         <Loading />
       ) : (
-        <Loading />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="inferenced" element={<Inferenced />} />
+            <Route path="sando" element={<Sando />} />
+            <Route path="zero" element={<Zero />} />
+          </Routes>
+        </BrowserRouter>
       )}
     </div>
   );
