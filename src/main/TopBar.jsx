@@ -42,11 +42,11 @@ function TopBar() {
               <Nav className="topbar-items">
                 <Link to="/" className="item" onClick={handleNavItemClick}>
                   <span>HOME</span>
-                  <span className="number">1</span>
+                  <span className="number">01</span>
                 </Link>
                 <Link to="/work" className="item" onClick={handleNavItemClick}>
                   <span>WORK</span>
-                  <span className="number">2</span>
+                  <span className="number">02</span>
                 </Link>
                 <Link
                   to="/contact"
@@ -54,7 +54,7 @@ function TopBar() {
                   onClick={handleNavItemClick}
                 >
                   <span>CONTACT</span>
-                  <span className="number">3</span>
+                  <span className="number">03</span>
                 </Link>
               </Nav>
             </Navbar.Collapse>

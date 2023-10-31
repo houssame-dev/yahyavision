@@ -30,13 +30,13 @@
 }
 
 #footer .card-7 .social-media a:hover {
-  color: black;
+  color: #222222;
   background-color: white;
   border: 2px solid white;
 }
 
 #footer .card-7 .social-media .twitter {
-  color: black;
+  color: #222222;
   background-color: white;
   border: 2px solid white;
   transition: 0.4s;
@@ -44,7 +44,7 @@
 
 #footer .card-7 .social-media .twitter:hover {
   color: white;
-  background-color: black;
+  background-color: #222222;
   border: 2px solid white;
 }
 

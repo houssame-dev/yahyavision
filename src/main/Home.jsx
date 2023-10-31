@@ -6,6 +6,7 @@ import yahya_img from "./assets/yahya-img.png";
 import { Link, useLocation } from "react-router-dom";
 import { BsArrowUpRight } from "react-icons/bs";
 import { Footer } from "./Footer";
+import TopBar from "./TopBar";
 
 function Home() {
   const location = useLocation();
@@ -15,6 +16,7 @@ function Home() {
   }, [location]);
   return (
     <>
+      <TopBar />
       <div id="home">
         <InfiniteLooper speed="25" direction="left">
           <div className="contentBlock contentBlock--one">

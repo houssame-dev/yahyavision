@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./main/Home";
-import TopBar from "./main/TopBar";
 import Work from "./main/Work";
 import Contact from "./main/Contact";
 import Inferenced from "./main/projects/Inferenced";
@@ -24,7 +23,6 @@ function App() {
         <Loading />
       ) : (
         <BrowserRouter>
-          <TopBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work />} />
