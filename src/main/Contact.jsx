@@ -8,8 +8,11 @@ import {
   FaLinkedinIn,
   FaXTwitter,
 } from "react-icons/fa6";
+import { SiGumroad } from "react-icons/si";
+import { BsArrowUpLeft } from "react-icons/bs";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-router-dom";
 
 function Contact() {
   const currentYear = new Date().getFullYear();
@@ -153,27 +156,57 @@ function Contact() {
               </Col>
               <Col className="bot-mid">
                 <div className="social-media">
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.instagram.com/yahyavision/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaInstagram size={15} />
                   </a>
                   <a
-                    href="http://"
+                    href="https://twitter.com/yahyavision"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="twitter"
                   >
-                    <FaXTwitter size={15}/>
+                    <FaXTwitter size={15} />
                   </a>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedinIn size={15}/>
+                  <a
+                    href="https://www.linkedin.com/in/yahyavision-a37a12273/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn size={15} />
                   </a>
-                  <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <FaBehance size={15}/>
+                  <a
+                    href="https://www.behance.net/yahyavison"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaBehance size={15} />
+                  </a>
+                  <a
+                    href="https://gumroad.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <SiGumroad size={15} />
                   </a>
                 </div>
               </Col>
               <Col className="bot-right">
-                &copy; {currentYear} {authorName}.
+                <div>
+                  <div className="return">
+                    <Link to="/" className="return-btn">
+                      <BsArrowUpLeft className="return-icon" size={15} /> HOME
+                    </Link>
+                  </div>
+                  <div>
+                    <span>
+                      &copy; {currentYear} {authorName}.
+                    </span>
+                  </div>
+                </div>
               </Col>
             </Col>
           </Row>
